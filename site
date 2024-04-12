@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+    <h1>Paises e Capitais</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Continente</th>
+                <th>Pais</th>
+                <th>Bandeira</th>
+                <th>Capital</th>
+                <th>Principais cidades</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- Mescla as linhas da tabela -->
+                <td rowspan="2">America do Sul</td>
+                <td>Brasil</td>
+                <td><img src="bandeiras/brasil.png" alt="Brasil"></td>
+                <td>Brasilia</td>
+                <td>
+                    <ul>
+                        <li>São Paulo</li>
+                        <li>Rio de Janeiro</li>
+                        <li>Salvador</li>
+                        <li>Paulo Afonso</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Aregntina</td>
+                <td><img src="bandeiras/argentina.png" alt="Aregntina"></td>
+                <td>Buenos Aires</td>
+                <td>???</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Europa</td>
+                <td>França</td>
+                <td><img src="bandeiras/franca.png" alt="França"></td>
+                <td>Paris</td>
+                <td>???</td>
+            </tr>
+            <tr>
+                <td>Alemanha</td>
+                <td><img src="bandeiras/alemanha.png" alt="Alemanha"></td>
+                <td>Berlin</td>
+                <td>???</td>
+            </tr>
+            <tr>
+                <td>Inglaterra</td>
+                <td><img src="bandeiras/inglaterra.png" alt="Inglaterra"></td>
+                <td>Londres</td>
+                <td>???</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Ásia</td>
+                <td>Japão</td>
+                <td><img src="bandeiras/japao.png" alt="Japão"></td>
+                <td>Tóquio</td>
+                <td>???</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td><img src="bandeiras/china comunista.png" alt="China"></td>
+                <td>Pequim</td>
+                <td>???</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Creditos: Lucas Gomes</td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+</html>
